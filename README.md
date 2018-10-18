@@ -23,7 +23,10 @@ Obviously make sure you have Metasploit installed (any version will work). If yo
 On the user you are using `msfconsole` with:
 
 1. `mkdir -p $HOME/.msf4/modules/post/linux/manage/`
-2. `wget http://github.com/cyclawps52/RedMBR/blob/master/Source/RedMBR.rb --O $HOME/.msf4/modules/post/linux/manage/RedMBR.rb`
+2. Download the version of your choosing:
+   * Latest stable version: `wget http://github.com/cyclawps52/RedMBR/blob/master/Source/RedMBR.rb --O $HOME/.msf4/modules/post/linux/manage/RedMBR.rb`
+   * Latest dev version: `wget https://github.com/cyclawps52/RedMBR/blob/dev/Source/RedMBR.rb --O $HOME/.msf4/modules/post/linux/manage/RedMBR.rb`
+   * Prior stable versions can be found under the [Releases tab](https://github.com/cyclawps52/RedMBR/releases)
 3. Get `root` level access in a session (can be shell or meterpreter)
 4. `use post/linux/manage/RedMBR`
 5. Set options and exploit away!
